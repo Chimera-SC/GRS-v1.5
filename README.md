@@ -1,2 +1,9 @@
-# GRS-v1.5
-Server's of Clash Royale
+# GRS
+Gobelinland Royale Server (GRS)
+
+This repository contains the source code of Gobelinland Royale Server, a C# server emulator for the famous game Clash Royale.
+GRS is not affiliated with Supercell.
+
+# Download
+* Prebuilt GRS -> https://github.com/Chimera-SC/GRS-v1.5/releases/download/pre-compiled/GRS.zip     
+* APK -> https://github.com/Chimera-SC/GRS-v1.5/releases/download/pre-compiled/grs_1.3.2.apk
