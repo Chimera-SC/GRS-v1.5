@@ -34,9 +34,10 @@ namespace CRS.Core.Network
 				p.Process(p.Client.GetLevel());
 				PacketManager.m_vOutgoingPackets.Add(p);
 			}
-			catch (Exception)
+			catch (Exception e)
 			{
 				Console.WriteLine("[GRS]    Error when sending a packet");
+				Console.WriteLine(e);
 			}
 		}
 
