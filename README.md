@@ -1,7 +1,7 @@
 # GRS
 GobelinLand Royale Server (GRS)
 
-This repository contains the source code of GobelinLand Royale Server, a C# server emulator for the famous game Clash Royale.
+This repository contains the source code of GobelinLand Royale Server, a C# server emulator for the famous game Clash Royale.     
 GRS is not affiliated with Supercell.
 
 # Download
