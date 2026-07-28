@@ -18,7 +18,7 @@ namespace CRS.PacketProcessing.Messages.Server
 		public override void Encode()
 		{
 			List<byte> list = new List<byte>();
-			list.AddInt32(0);
+			list.AddInt32(300); // Seconds
 			base.Encrypt(list.ToArray());
 		}
 	}

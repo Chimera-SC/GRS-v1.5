@@ -1,4 +1,4 @@
-"Name","TID","NotBeenInClan","MinNpcWins","MaxNpcWins","MinArena","MaxArena","MinTophies","MaxTrophies","MinExpLevel","MaxExpLevel","iOSTID","AndroidTID"
+"Name","TID","NotBeenInClan","MinNpcWins","MaxNpcWins","MinArena","MaxArena","MinTrophies","MaxTrophies","MinExpLevel","MaxExpLevel","iOSTID","AndroidTID"
 "String","String","boolean","int","int","int","int","int","int","int","int","String","String"
 "welcome message","TID_HINT_WELCOME",,,6,,,,,,,,
 "winning condition1","TID_HINT_WINNING_CONDITION1",,2,,,1,,,,,,
@@ -89,12 +89,17 @@
 "super magical chest2","TID_HINT_CHEST_SUPER_MAGICAL2",,,,2,,,,,,,
 "giant chest1","TID_HINT_CHEST_GIANT1",,,,2,,,,,,,
 "giant chest2","TID_HINT_CHEST_GIANT2",,,,2,,,,,,,
-"legendary card1","TID_HINT_LEGENDARY_CARDS1",,,,5,,,,,,,
-"legendary card2","TID_HINT_LEGENDARY_CARDS2",,,,1,4,,,,,,
-"three musketeers1","TID_HINT_THREE_MUSKETEERS1",,,,7,,,,,,,
-"three musketeers2","TID_HINT_THREE_MUSKETEERS2",,,,7,,,,,,,
+"legendary card1","TID_HINT_LEGENDARY_CARDS1",,,,4,,,,,,,
+"legendary card2","TID_HINT_LEGENDARY_CARDS2",,,,1,3,,,,,,
+"three musketeers","TID_HINT_THREE_MUSKETEERS",,,,7,,,,,,,
 "dark prince","TID_HINT_DARK_PRINCE",,,,7,,,,,,,
 "ice wizard","TID_HINT_ICE_WIZARD",,,,5,,,,,,,
 "princess","TID_HINT_PRINCESS",,,,7,,,,,,,
 "royal giant","TID_HINT_ROYAL_GIANT",,,,7,,,,,,,
 "poison","TID_HINT_POISON",,,,5,,,,,,,
+"legendary max level","TID_HINT_LEGENDARY_MAX_LEVEL",,,,,,,,8,,,
+"gold per win","TID_HINT_GOLD_PER_WIN",,,,1,,,,,,,
+"lava hound","TID_HINT_LAVA_HOUND",,,,4,,,,,,,
+"miner","TID_HINT_MINER",,,,6,,,,,,,
+"sparky","TID_HINT_SPARKY",,,,6,,,,,,,
+"legendary card3","TID_HINT_LEGENDARY_CARDS3",,,,4,,,,,,,

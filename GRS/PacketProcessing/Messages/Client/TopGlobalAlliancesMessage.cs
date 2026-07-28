@@ -18,12 +18,29 @@ namespace CRS.PacketProcessing.Messages.Client
 		// Token: 0x060003E9 RID: 1001 RVA: 0x000123B6 File Offset: 0x000105B6
 		public override void Decode()
 		{
+			using (PacketReader packetReader = new PacketReader(new MemoryStream(base.GetData())))
+			{
+				this.IsLocal = packetReader.ReadBoolean();
+
+				Console.WriteLine(this.IsLocal);
+			}
 		}
 
 		// Token: 0x060003EA RID: 1002 RVA: 0x0001ACC4 File Offset: 0x00018EC4
 		public override void Process(Level level)
 		{
-			PacketManager.Send(new GlobalAlliancesMessage(base.Client));
+			if (this.IsLocal)
+			{
+				PacketManager.Send(new LocalAlliancesMessage(base.Client));
+				Console.WriteLine("Local True");
+			}
+			else
+            {
+				PacketManager.Send(new GlobalAlliancesMessage(base.Client));
+				Console.WriteLine("Local False");
+			}
 		}
+
+		public bool IsLocal;
 	}
 }

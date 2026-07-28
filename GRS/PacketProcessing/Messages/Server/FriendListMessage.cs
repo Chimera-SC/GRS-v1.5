@@ -18,8 +18,26 @@ namespace CRS.PacketProcessing.Messages.Server
 		public override void Encode()
 		{
 			List<byte> list = new List<byte>();
-			list.AddInt32(1);
-			list.AddInt32(0);
+			list.AddInt32(2);
+			list.AddInt32(1); // Count
+
+			list.AddInt32(2); // HighId
+			list.AddInt32(2); // LowId
+			list.AddInt32(2); // HighId
+			list.AddInt32(2); // LowId
+			list.AddString("Berkan");
+			list.AddString("bbb");
+			list.AddString("ccc");
+			list.AddRange(Message.AddVInt(0));
+			list.AddRange(Message.AddVInt(12)); // ExpLevel
+			list.AddRange(Message.AddVInt(5000)); // Score
+			list.AddRange(Message.AddVInt(1)); // HasAlliance
+			list.AddInt32(2); // HighId
+			list.AddInt32(2); // LowId
+			list.AddString("GobelinLand");
+			list.AddRange(Message.AddVInt(16));
+			list.AddRange(Message.AddVInt(26)); // Badge
+			list.AddString("ddd");
 			base.Encrypt(list.ToArray());
 		}
 	}

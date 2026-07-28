@@ -18,7 +18,8 @@ namespace CRS.PacketProcessing.Messages.Server
 		public override void Encode()
 		{
 			List<byte> list = new List<byte>();
-			list.AddRange(Message.AddVInt(1));
+			list.AddRange(Message.AddVInt(1)); // Count
+
 			list.AddRange(Message.AddVInt(1));
 			list.AddRange(Message.AddVInt(1));
 			list.AddString("GobelinLand");
@@ -28,7 +29,7 @@ namespace CRS.PacketProcessing.Messages.Server
 			list.Add(16);
 			list.Add(26);
 			list.AddRange(Message.AddVInt(0));
-			list.AddRange(Message.AddVInt(5));
+			list.AddRange(Message.AddVInt(5)); // MemberCount
 			list.AddRange(Message.AddVInt(5));
 			base.Encrypt(list.ToArray());
 		}

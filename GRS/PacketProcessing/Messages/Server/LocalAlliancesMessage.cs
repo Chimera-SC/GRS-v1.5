@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using CRS.Helpers;
 
 namespace CRS.PacketProcessing.Messages.Server
 {
@@ -17,8 +18,19 @@ namespace CRS.PacketProcessing.Messages.Server
 		public override void Encode()
 		{
 			List<byte> list = new List<byte>();
+			list.AddInt32(1); // Count
+
+			list.AddRange(Message.AddVInt(1));
+			list.AddRange(Message.AddVInt(1));
+			list.AddString("GobelinLand");
+			list.AddRange(Message.AddVInt(1));
+			list.AddRange(Message.AddVInt(5000));
+			list.AddRange(Message.AddVInt(1));
+			list.Add(16);
+			list.Add(26);
 			list.AddRange(Message.AddVInt(0));
-			list.AddRange(Message.AddVInt((int)TimeSpan.FromDays(1.0).TotalSeconds));
+			list.AddRange(Message.AddVInt(5)); // MemberCount
+			list.AddRange(Message.AddVInt(5));
 			base.Encrypt(list.ToArray());
 		}
 	}

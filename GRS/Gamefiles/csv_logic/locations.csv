@@ -14,7 +14,7 @@
 ,,,,,,,,,,,"Tut_count_01",3,"true",,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,"Tut_count_01",2,"true",,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,"Tut_count_01",1,"true",,,,,,,,,,,,,,,,,,,,,,,
-"PvP_goblin",,"true",,30,,55,100,100,"BattleMusic",180,"Goblin_arena_start",180,,"Sudden_death",180,"Normal",60,,,,,4000,"locations/goblin_arena.csv","ScrollAmb01",,,"true","sc/effects.sc","cloud_1",70,110,25,80,15,15,5
+"PvP_goblin",,"true",,30,,55,100,200,"BattleMusic",180,"Goblin_arena_start",180,,"Sudden_death",180,"Normal",60,,,,,4000,"locations/goblin_arena.csv","ScrollAmb01",,,"true","sc/effects.sc","cloud_1",70,110,25,80,15,15,5
 ,,,,,,,,,"60sec_loop",60,"60sec_warn_01",60,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,"30sec_loop",30,"30sec_warn_01",30,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,"Countdown_10",10,"true",,,,,,,,,,,,,,,,,,,,,,,
@@ -40,7 +40,7 @@
 ,,,,,,,,,,,"Countdown_3",3,"true",,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,"Countdown_2",2,"true",,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,"Countdown_1",1,"true",,,,,,,,,,,,,,,,,,,,,,,
-"PvP_bone",,"true",50,10,,55,100,100,"BattleMusic",180,"Bone_pit_arena_start",180,,"Sudden_death",180,"Normal",60,,,,,4000,"locations/bone_arena.csv","ScrollAmb01",,,"true","sc/effects.sc","cloud_1",70,110,25,80,15,15,5
+"PvP_bone",,"true",50,10,,55,100,144,"BattleMusic",180,"Bone_pit_arena_start",180,,"Sudden_death",180,"Normal",60,,,,,4000,"locations/bone_arena.csv","ScrollAmb01",,,"true","sc/effects.sc","cloud_1",70,110,25,80,15,15,5
 ,,,,,,,,,"60sec_loop",60,"60sec_warn_01",60,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,"30sec_loop",30,"30sec_warn_01",30,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,"Countdown_10",10,"true",,,,,,,,,,,,,,,,,,,,,,,
